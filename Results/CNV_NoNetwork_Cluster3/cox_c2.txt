@@ -1,0 +1,19 @@
+Call:
+coxph(formula = Surv(overall_survival, vital_status) ~ Stage, 
+    data = c2)
+
+  n= 33, number of events= 4 
+
+        coef exp(coef) se(coef)     z Pr(>|z|)  
+Stage 0.8788    2.4079   0.4834 1.818   0.0691 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+      exp(coef) exp(-coef) lower .95 upper .95
+Stage     2.408     0.4153    0.9337      6.21
+
+Concordance= 0.802  (se = 0.134 )
+Likelihood ratio test= 3.39  on 1 df,   p=0.07
+Wald test            = 3.31  on 1 df,   p=0.07
+Score (logrank) test = 3.96  on 1 df,   p=0.05
+
