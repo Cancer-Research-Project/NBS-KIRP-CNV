@@ -28,8 +28,8 @@ pip install .
 ```
 ## Scripts and Runner files
 There are two scripts that are used:
-- **script_CNV.py** : to perform NBS on the given inputs
-- **script_CNV_without_network.py** : to perform NMF on the given inputs
+- `script_CNV.py` : to perform NBS on the given inputs
+- `script_CNV_without_network.py` : to perform NMF on the given inputs
 
 The Runner script along with the arguments are given in **run_cnv_script.sh**
 
@@ -40,8 +40,8 @@ It also contains the codes used for performing the above along with the code for
 
 ## Gene Network Creation
 This section contains the codes and files used for the creation of the Gene Network. It contains the following files : 
-- KIRP_geneExp.ipynb : it contains the code for downloading the KIRP gene-expression dataset and performing DEG on the data. It creates 2 files for the upregulated and downregulated genes obtained respectively.
-- GeneNet_setup.ipynb : this is the code for creating Gene Network using an already known network and list of upregulated and downregulated genes obtained form the previous step.
+- `KIRP_geneExp.ipynb` : it contains the code for downloading the KIRP gene-expression dataset and performing DEG on the data. It creates 2 files for the upregulated and downregulated genes obtained respectively.
+- `GeneNet_setup.ipynb` : this is the code for creating Gene Network using an already known network and list of upregulated and downregulated genes obtained form the previous step.
 
 The data downloaded and the intermediate data produced during the above steps during our experiment are also added in the folder.
 ## Data
