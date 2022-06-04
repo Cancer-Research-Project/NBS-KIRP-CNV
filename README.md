@@ -2,7 +2,7 @@
 
 This is the codebase and the datasets mentioned in the paper **_Network diffusion-based approach for survival prediction and
 identification of biomarkers using multi-omics data of Papillary
-Renal Cell Carcinoma_**. _2022_ .  _Keerthi S. Shetty, Aswin Jose, Mihir Bani 
+Renal Cell Carcinoma_**. _2022_ .  _Keerthi S. Shetty, Aswin Jose, Mihir Bani_
 
 The repo can be divided into the following sections : 
 - PyNBS
@@ -53,7 +53,13 @@ It has 4 folders present in it namely:
 - Survival files : contains the survival data processed form the clinical data in csv format.
 
 ## Results
-This folder contains all the results of the NBS runs. The following naming scheme is followed : <Omic>_<Network_name> _<Cluster_number> 
+The directories inside it contain the cluster assignments, related plots, coefficients and images for the respective runs.  
+Name Format: Data_Network_Cluster
+
+-   CNV_CRN_Cluster2
+-   CNV_GeneNet_Cluster2
+-   CNV_PCNet_Cluster2
+-   CNV_NoNetwork_Cluster3
 
 
 ## Contributions
