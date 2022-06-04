@@ -2,7 +2,7 @@
 
 This is the codebase and the datasets mentioned in the paper **_Network diffusion-based approach for survival prediction and
 identification of biomarkers using multi-omics data of Papillary
-Renal Cell Carcinoma_**. _2022_ .  _Keerthi S. Shetty, Aswin Jose, Mihir Bani and P.K. Vinod_
+Renal Cell Carcinoma_**. _2022_ .  _Keerthi S. Shetty, Aswin Jose, Mihir Bani 
 
 The repo can be divided into the following sections : 
 - PyNBS
