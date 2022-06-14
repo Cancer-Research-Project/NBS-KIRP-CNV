@@ -1,9 +1,0 @@
-Call:
-survdiff(formula = Surv(overall_survival, vital_status) ~ subtype, 
-    data = clust)
-
-            N Observed Expected (O-E)^2/E (O-E)^2/V
-subtype=1 100       23     13.8      6.09      9.04
-subtype=2 174       20     29.2      2.89      9.04
-
- Chisq= 9  on 1 degrees of freedom, p= 0.003 
